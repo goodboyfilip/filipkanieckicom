@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "karrik-regular";
+  src: url(./assets/fonts/Karrik-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "karrik-italic";
+  src: url(./assets/fonts/Karrik-Italic.woff) format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "pilowlava-regular";
+  src: url(./assets/fonts/Pilowlava-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "karrik-regular", sans-serif;
+  line-height: 1;
+  color: black;
+  background: bisque;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+h1 {
+  font-family: "pilowlava-regular";
+  font-size: 9em;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+.player {
+  display: flex;
+  margin: auto;
+}
+
+.songCred {
+  background: #000;
+  border: 1px solid #fff;
+  padding: 1px 5px 2px;
+  border-radius: 3px;
+  box-shadow: -5px 4px 4px 0 #afffcb;
+  color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.page-wrapper {
+  color: #000;
+  z-index: 1;
+  max-width: 70vw;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+}
