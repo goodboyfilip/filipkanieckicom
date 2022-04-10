@@ -18,6 +18,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Movement-IndirectThin";
+  src: url(./assets/fonts/Movement-Indirect-Thin.ttf.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "karrik-regular", sans-serif;
   line-height: 1;
@@ -44,6 +51,10 @@ q {
   quotes: none;
 }
 
+.melty-face {
+  font-size: 4em;
+}
+
 .player {
   display: flex;
   margin: auto;
@@ -52,11 +63,11 @@ q {
 .songCred {
   background: #000;
   border: 1px solid #fff;
-  padding: 1px 5px 2px;
-  border-radius: 3px;
-  box-shadow: -5px 4px 4px 0 #afffcb;
-  color: #fff;
-  transition: box-shadow 0.3s;
+  padding: 3px 7px 3px;
+  border-radius: 5px;
+  box-shadow: -4px 5px 5px 0 #33ff7a;
+  color: rgb(152, 255, 152);
+  transition: box-shadow 0.1s;
 }
 
 .page-wrapper {
