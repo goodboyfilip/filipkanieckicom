@@ -79,3 +79,10 @@ q {
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 800px) {
+  .page-wrapper {
+    max-width: 95%;
+    padding: 15px;
+  }
+}
