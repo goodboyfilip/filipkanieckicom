@@ -1,0 +1,101 @@
+/* @font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(/web/20220411173255im_/https://www.filipkaniecki.com/assets/fonts/Karrik-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(/web/20220411173255im_/https://www.filipkaniecki.com/assets/fonts/Karrik-Italic.woff) format("woff");
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(/web/20220411173255im_/https://www.filipkaniecki.com/assets/fonts/Pilowlava-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(/web/20220411173255im_/https://www.filipkaniecki.com/assets/fonts/Movement-Indirect-Thin.ttf.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  } */
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    background: rgb(217, 217, 217);
+    margin: 0;
+  }
+  
+  div {
+    display: block;
+    padding: 20px;
+  }
+  h1 {
+    font-family: 'Chivo Mono', monospace;
+    /* font-weight: 900; */
+    font-size: 2em;
+  }
+
+  h2 {
+    font-family: 'Chivo Mono', monospace;
+
+  }
+
+  h3 {
+    font-family: 'Chivo Mono', monospace;
+    font-size: small;
+
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  blockquote,
+  q {
+    quotes: none;
+  }
+  
+  .melty-face {
+    font-size: 4em;
+  }
+  
+  .player {
+    display: flex;
+    margin: auto;
+  }
+  
+  .songCred {
+    background: #000;
+    border: 1px solid #fff;
+    padding: 3px 7px 3px;
+    border-radius: 5px;
+    box-shadow: -4px 5px 5px 0 #33ff7a;
+    color: rgb(152, 255, 152);
+    transition: box-shadow 0.1s;
+  }
+
+  .page-wrapper {
+    color: #000;
+    z-index: 1;
+    max-width: 70vw;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 800px) {
+    .page-wrapper {
+      max-width: 95%;
+      padding: 15px;
+    }
+  }
